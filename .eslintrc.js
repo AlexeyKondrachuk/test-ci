@@ -10,10 +10,9 @@ module.exports = {
       'files': ['**/*/*.test.js'],
       'plugins': ['jest'],
       'extends': ['plugin:jest/recommended'],
-      'rules': { 'jest/prefer-expect-assertions': 'off' },
-      'rules': {
-        'jest/no-identical-title': 'off'
-      }}
+      'rules': [{ 'jest/prefer-expect-assertions': 'off' },
+                {'jest/no-identical-title': 'off'}]
+    }
     
   ],
   'parserOptions': {
