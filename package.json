@@ -16,7 +16,7 @@
     "show:dist": "live-server dist"
   },
   "author": "Alexey Kondrachuk",
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.6",
